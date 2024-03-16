@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:ital,wght@1,100&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+}
+.app {
+  width: 80%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
